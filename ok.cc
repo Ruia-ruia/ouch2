@@ -15,11 +15,10 @@ public:
 
 int main() {
 
-	int c = 3;
-	int *d = &c;
+	int *c = new int(3);
 	
 	A *z = new A;
-	A *a = new A(d);
+	A *a = new A(c);
 	A *b = new A(a);
 	
 	delete a;
