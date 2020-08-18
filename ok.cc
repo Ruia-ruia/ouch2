@@ -6,6 +6,7 @@ class A {
 public:
 	A() :ptr(nullptr) {};
 	A(A* ptr) :ptr(ptr) {};
+	A(int* ptr) :ptr(ptr) {};
 	A* ptr;
 
 };
